@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Form</title>
+    <link rel="stylesheet" href="styles.css" />
+
+</head>
+<body>
+    
+    <h1 id="title">Basic Survey Form</h1>
+    <p id="description">Please fill out this form with the required information</p>
+    <form id="survey-form" method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <!-- name -->
+        <label for="name" id="name-label">Name: <input id="name" name="name" type="text" required placeholder="Enter your name here..."/></label>    
+        <!-- email -->
+        <label for="email" id="email-label">Email: <input id="email" name="email" type="email" required placeholder="Enter your email here..."/></label>
+        <!-- age - optional -->
+        <label for="number" id="number-label">Age (optional): <input id="number" type="number" name="number" min="13" max="120" placeholder="Enter your age here..."/>
+      
+      
+        <!-- select dropdown -->
+        <label for="dropdown">How did you hear about us?
+            <select id="dropdown" name="dropdown">
+              <option value="">(select one)</option>
+              <option value="1">News</option>
+              <option value="2">YouTube Channel</option>
+              <option value="3">Forum</option>
+              <option value="4">Other</option>
+            </select>
+          </label>
+
+
+   
+      
+
+          <!-- radio buttons         -->
+        <label>Would you recommed the course to someone else</label>
+          
+<input type="radio" name="radio" value="definitely" class="inline"/>Definitely</label>
+          </div>
+          <div>
+       <label><input type="radio" name="radio"  value="maybe" class="inline"/>Maybe
+
+
+
+
+
+        <label for="dropdown">How did you hear about us?
+          <select id="dropdown" name="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">News</option>
+            <option value="2">YouTube Channel</option>
+            <option value="3">Forum</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+
+        <p> Select all that apply: </p>      
+
+        <!-- <form> -->
+          <fieldset>  
+            <input id="checklist_op1" type="checkbox"  name="checklist_op1" class="inline" value="value"/> Option 1
+            
+            <input id="checklist_op2" type="checkbox"  name="checklist_op2" class="inline" value="value"/> Option 2
+
+            <input id="checklist_op3" type="checkbox"  name="checklist_op3" class="inline" value="value"/> Option 3
+          </fieldset> 
+        <!-- </form>   -->
+
+
+        <label for="feedback">Feedback:
+          <textarea id="feedback" name="feedback" rows="3" cols="30" placeholder="Enter your comment here..."></textarea>
+        </label>
+      </fieldset>
+
+
+    <input  type="submit" id="submit" />
+    
+    </form>
+
+</body>
+</html>
