@@ -5,16 +5,17 @@
   body {
     margin: 0;
     font-family: sans-serif;
-    background: #f5f6f7;
+    background: #69aab6;
   }
   
   .header {
     text-align: center;
     text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 32px;
-    background-color: #0a0a23;
-    color: #fff;
-    border-bottom: 4px solid #fdb347;
+    background-color: #15505a;
+    color: #ffffff;
+    border-bottom: 8px solid #0b6d68;
   }
   
   .gallery {
@@ -23,10 +24,10 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 16px;
+    gap: 22px;
     max-width: 1400px;
     margin: 0 auto;
-    padding: 20px 10px;
+    padding: 40px 30px;
   }
   
   .gallery img {
